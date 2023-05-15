@@ -1,0 +1,61 @@
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust the height of the logo to fit better on a smaller screen */
+    img {
+      height: 30px;
+    }
+  
+    /* Decrease the font size of the navbar links */
+    .MuiTypography-root {
+      font-size: 14px;
+    }
+  
+    /* Hide the avatar in the navbar */
+    .MuiAvatar-root {
+      display: none;
+    }
+  
+    /* Position the search bar and add padding to the toolbar */
+    .MuiToolbar-root {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8px;
+    }
+  
+    /* Adjust the padding of the search input */
+    .MuiInputBase-input {
+      padding: 8px 0;
+    }
+  
+    /* Adjust the width of the search input */
+    .MuiInputBase-root {
+      width: 100%;
+    }
+  
+    /* Position the menu icon and adjust its size */
+    .MuiIconButton-root {
+      margin-left: -12px;
+      margin-right: 0px;
+      padding: 6px;
+      font-size: 20px;
+    }
+  
+    /* Adjust the padding of the menu icon */
+    .MuiSvgIcon-root {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* Position the drawer and adjust its width */
+    .MuiDrawer-paper {
+      width: 80%;
+    }
+  
+    /* Adjust the padding of the drawer list items */
+    .MuiListItem-root {
+      padding: 12px;
+    }
+  
+  }
+  

@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { Avatar, Box, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
