@@ -1,0 +1,60 @@
+.FooterContainer{
+    background-color:#08315c;
+    color: white;
+    padding: 3rem;
+}
+.FooterContainer div li{
+    list-style: none;
+}
+
+.inpt input{
+    width: 500px;
+    height: 50px;
+}
+
+.inpt button{
+    width: 200px;
+    height: 55px;
+    background-color: rgb(62, 58, 58);
+    color: white;
+    font-size: large;
+}
+
+.sell{
+    font-size: 20px;
+    word-spacing: 3px;
+    width: 70rem;
+    margin: 5rem 5rem;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+}
+
+.services div {
+    margin-right: 15rem;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+}
+
+.store img{
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.Download ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.Download li{
+    margin-right: 3rem;
+    list-style: none;
+}
+

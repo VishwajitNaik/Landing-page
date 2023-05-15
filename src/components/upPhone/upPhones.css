@@ -1,0 +1,48 @@
+h2{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.UpPhone{
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    width: auto;
+    background-color: rgb(20, 20, 59);
+    color: white;
+}
+
+.imgdiv{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 7rem;
+}
+
+.img1{
+    margin-top: 10px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .UpPhone {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .divtxt {
+      padding: 2rem;
+    }
+  
+    .imgdiv {
+      flex-direction: column;
+      margin: 2rem;
+    }
+  
+    .img1 {
+      margin-right: 0;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  }
+  
